@@ -1,0 +1,66 @@
+@import "./less/game.less";
+
+@color-background: #369;
+@image-background: "https://source.unsplash.com/random";
+@color-text: #fff;
+
+body {
+  background: @color-background;
+  background-size: cover;
+  background-image: url(@image-background);
+  color: @color-text;
+  border-color: 'black';
+  text-shadow: 2px 2px #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header {
+  font-size: 48px;
+}
+
+.header-game {
+  font-size: 12px;
+}
+
+.header-about {
+  font-size: 30px;
+}
+
+.content {
+  font-size: 25px;
+}
+
+.content-about {
+  font-size: 60px;
+}
+
+.navigation {
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  text-shadow: 2px 2px #ffffff;
+}
+
+.navigation-core {
+  display: flex;
+  flex-direction: row;
+  text-shadow: 2px 2px #ffffff;
+}
+
+.navigation-game {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  text-shadow: 2px 2px #ffffff;
+}
+
+.navigation-item {
+  margin-left: 50px;
+  text-decoration:none;
+}
